@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Array
-%define	pnam	Lookup
+%define		pdir	Array
+%define		pnam	Lookup
 Summary:	Array::Lookup - lookup strings in arrays or hash tables with abbreviation
 Summary(pl):	Array::Lookup - poszukiwanie ³añcuchów w tablicach lub hashach z u¿yciem skrótów
 Name:		perl-Array-Lookup
