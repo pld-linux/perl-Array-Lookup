@@ -30,13 +30,18 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Array::Lookup performs a search through an array of strings, allowing for
-abbreviation of the search key.  The Lookup subroutine is especially handy
-for doing keyword lookups in an array or hash table, where the keyword may
-be abbreviated.  Exact matches are give priority over abbreviated matches.
+Array::Lookup performs a search through an array of strings, allowing
+for abbreviation of the search key. The Lookup subroutine is
+especially handy for doing keyword lookups in an array or hash table,
+where the keyword may be abbreviated. Exact matches are give priority
+over abbreviated matches.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Array::Lookup przeszukuje tablicê ³añcuchów, pozwalaj±c na
+skracanie szukanego klucza. Jest wygodny zw³aszcza do wyszukiwania
+s³ów kluczowych w tablicach zwyk³ych lub haszuj±cych, kiedy s³owa
+kluczowe mog± byæ skracane. Dok³adne dopasowania maj± wiêkszy
+priorytet ni¿ skrócone.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
