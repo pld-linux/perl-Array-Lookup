@@ -9,7 +9,7 @@ Summary:	Array::Lookup - lookup strings in arrays or hash tables with abbreviati
 Summary(pl):	Array::Lookup - poszukiwanie ³añcuchów w tablicach lub hashach z u¿yciem skrótów
 Name:		perl-Array-Lookup
 Version:	2.1
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
