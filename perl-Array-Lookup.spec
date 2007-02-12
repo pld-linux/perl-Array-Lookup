@@ -6,7 +6,7 @@
 %define		pdir	Array
 %define		pnam	Lookup
 Summary:	Array::Lookup - lookup strings in arrays or hash tables with abbreviation
-Summary(pl):	Array::Lookup - poszukiwanie ³añcuchów w tablicach lub hashach z u¿yciem skrótów
+Summary(pl.UTF-8):   Array::Lookup - poszukiwanie Å‚aÅ„cuchÃ³w w tablicach lub hashach z uÅ¼yciem skrÃ³tÃ³w
 Name:		perl-Array-Lookup
 Version:	2.1
 Release:	3
@@ -29,12 +29,12 @@ especially handy for doing keyword lookups in an array or hash table,
 where the keyword may be abbreviated. Exact matches are give priority
 over abbreviated matches.
 
-%description -l pl
-Modu³ Array::Lookup przeszukuje tablicê ³añcuchów, pozwalaj±c na
-skracanie szukanego klucza. Jest wygodny zw³aszcza do wyszukiwania
-s³ów kluczowych w tablicach zwyk³ych lub haszuj±cych, kiedy s³owa
-kluczowe mog± byæ skracane. Dok³adne dopasowania maj± wiêkszy
-priorytet ni¿ skrócone.
+%description -l pl.UTF-8
+ModuÅ‚ Array::Lookup przeszukuje tablicÄ™ Å‚aÅ„cuchÃ³w, pozwalajÄ…c na
+skracanie szukanego klucza. Jest wygodny zwÅ‚aszcza do wyszukiwania
+sÅ‚Ã³w kluczowych w tablicach zwykÅ‚ych lub haszujÄ…cych, kiedy sÅ‚owa
+kluczowe mogÄ… byÄ‡ skracane. DokÅ‚adne dopasowania majÄ… wiÄ™kszy
+priorytet niÅ¼ skrÃ³cone.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
