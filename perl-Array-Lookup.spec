@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Array
 %define		pnam	Lookup
+%include	/usr/lib/rpm/macros.perl
 Summary:	Array::Lookup - lookup strings in arrays or hash tables with abbreviation
 Summary(pl.UTF-8):	Array::Lookup - poszukiwanie łańcuchów w tablicach lub hashach z użyciem skrótów
 Name:		perl-Array-Lookup
@@ -14,8 +14,9 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1b6441bcf3b1fd8af12dc9d532bc48f2
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Array-Lookup/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Array-PrintCols
 %endif
