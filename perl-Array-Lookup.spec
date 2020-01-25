@@ -4,7 +4,6 @@
 
 %define		pdir	Array
 %define		pnam	Lookup
-%include	/usr/lib/rpm/macros.perl
 Summary:	Array::Lookup - lookup strings in arrays or hash tables with abbreviation
 Summary(pl.UTF-8):	Array::Lookup - poszukiwanie łańcuchów w tablicach lub hashach z użyciem skrótów
 Name:		perl-Array-Lookup
